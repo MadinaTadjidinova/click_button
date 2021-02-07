@@ -6,4 +6,5 @@ let ul = document.createElement('ul');
 for (let i = 1; i <= 5; i++){
     let li = document.createElement('li');
     let button = document.createElement('button');
+    button.id = "buttons" + i;
 }
