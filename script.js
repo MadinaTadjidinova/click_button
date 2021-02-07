@@ -14,4 +14,9 @@ for (let i = 1; i <= 5; i++){
 document.body.append(ul);
 
 //1
-buttons1.innerText = "Random color"
+buttons1.innerText = "Random color";
+buttons1.addEventListener('click', function(){
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+})
