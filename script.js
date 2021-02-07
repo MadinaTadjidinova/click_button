@@ -9,4 +9,5 @@ for (let i = 1; i <= 5; i++){
     button.id = "buttons" + i;
 
     li.append(button);
+    ul.append(li);
 }
