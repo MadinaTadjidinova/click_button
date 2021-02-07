@@ -12,3 +12,5 @@ for (let i = 1; i <= 5; i++){
     ul.append(li);
 }
 document.body.append(ul);
+
+//1
